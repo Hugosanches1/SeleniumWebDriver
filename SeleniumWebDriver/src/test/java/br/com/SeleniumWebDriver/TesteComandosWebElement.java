@@ -15,5 +15,6 @@ public class TesteComandosWebElement {
 	    driver = new FirefoxDriver();
 	    driver.manage().window().maximize();
 	    driver.get("https://www.youtube.com");
+	    
 	}
 }
