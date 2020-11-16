@@ -46,6 +46,7 @@ public static void TesteWaitExplicito() {
 		WebElement texto = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='finish']/h4")));
 		
 		texto.click();
+
 		
 		System.out.println(texto.getAttribute("innerText").toString());
 	}
